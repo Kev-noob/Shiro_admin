@@ -63,7 +63,7 @@
             this.Login_.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Login_.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Login_.Font = new System.Drawing.Font("Baskerville Old Face", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Login_.ForeColor = System.Drawing.Color.White;
+            this.Login_.ForeColor = System.Drawing.Color.Black;
             this.Login_.Location = new System.Drawing.Point(118, 435);
             this.Login_.Name = "Login_";
             this.Login_.Size = new System.Drawing.Size(140, 90);
@@ -93,7 +93,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(34, 208);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(95, 24);
@@ -105,7 +105,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(34, 314);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(166, 24);
@@ -117,7 +117,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(78, 83);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(180, 29);
@@ -129,7 +129,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = global::Super_Admin_Rolly.Properties.Resources._1;
+            this.BackgroundImage = global::Super_Admin_Rolly.Properties.Resources.form_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(900, 600);
             this.Controls.Add(this.label3);

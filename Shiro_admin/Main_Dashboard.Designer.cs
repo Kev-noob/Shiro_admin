@@ -527,9 +527,9 @@
             // 
             // Contents
             // 
-            this.Contents.Controls.Add(this.Instructor_);
-            this.Contents.Controls.Add(this.Home_);
             this.Contents.Controls.Add(this.Enrollment_);
+            this.Contents.Controls.Add(this.Home_);
+            this.Contents.Controls.Add(this.Instructor_);
             this.Contents.Controls.Add(this.Admins_);
             this.Contents.Controls.Add(this.Billing_);
             this.Contents.Controls.Add(this.Dashboard_);
@@ -851,7 +851,7 @@
             // 
             // Home_
             // 
-            this.Home_.BackgroundImage = global::Super_Admin_Rolly.Properties.Resources._2;
+            this.Home_.BackgroundImage = global::Super_Admin_Rolly.Properties.Resources.form_11;
             this.Home_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Home_.Controls.Add(this.label13);
             this.Home_.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -866,7 +866,7 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Noto Sans JP Black", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label13.ForeColor = System.Drawing.Color.Maroon;
-            this.label13.Location = new System.Drawing.Point(67, 126);
+            this.label13.Location = new System.Drawing.Point(12, 29);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(374, 139);
             this.label13.TabIndex = 1;

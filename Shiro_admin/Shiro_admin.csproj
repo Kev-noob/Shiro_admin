@@ -95,6 +95,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class_offering.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class_offering.Designer.cs">
+      <DependentUpon>Class_offering.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dal\DBHelper.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +127,12 @@
     <Compile Include="Subject.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Subject_align.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Class_offering.resx">
+      <DependentUpon>Class_offering.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

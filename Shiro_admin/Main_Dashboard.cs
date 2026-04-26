@@ -324,6 +324,10 @@ namespace Super_Admin_Rolly
             LoadINS_permanent();
         }
 
-        
+        private void classOffering__Click(object sender, EventArgs e)
+        {
+            Class_offering form = new Class_offering();
+            form.Show();
+        }
     }
 }

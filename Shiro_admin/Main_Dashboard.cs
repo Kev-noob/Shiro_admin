@@ -73,10 +73,7 @@ namespace Super_Admin_Rolly
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
+     
 
         private void button5_Click(object sender, EventArgs e)
         {
@@ -329,5 +326,7 @@ namespace Super_Admin_Rolly
             Class_offering form = new Class_offering();
             form.Show();
         }
+
+      
     }
 }
